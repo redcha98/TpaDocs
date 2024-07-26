@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Albatros',
+    Svg: require('@site/static/img/undraw_albatros.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Albatros is a development system for industrial automation logics, with trajectory generators that can interpolate several axes, up to 128. With this software you can configure machine groups and subgroups, combining each of them to the inputs (analog and digital sensors), outputs (analog and digital actuators), motor sources (analog and digital axes)
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'TpaCAD',
+    Svg: require('@site/static/img/undraw_tpacad.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       TpaCAD is Tpa’s CAD/CAM programming system for Microsoft Windows environments. It can interface with 3 or 5-axis CNC machining centres. TpaCAD can be used to work with several types of materials, such as wood, marble, metal, glass, and plastics.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'WSCM',
+    Svg: require('@site/static/img/undraw_wscm.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        WSCM is our main software to manage the machine production cycle and its work plane.
+
+The application, directly interfacing Albatros environment, so the numerical control, offers all the functions to interact with the machine. It directs the operations to create panels, the set-point process, the manual drive of one or more axes, the activation or deactivation of physical devices, and the arrangement of the work plane.
       </>
     ),
   },
