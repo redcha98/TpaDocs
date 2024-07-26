@@ -21,7 +21,7 @@ build_job:
 
 deploy_job:
   stage: deploy
-    tags:
+  tags:
     - dip-group-runner 
   script:
     - npm install --force
