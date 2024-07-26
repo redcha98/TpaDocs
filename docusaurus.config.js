@@ -75,19 +75,7 @@ const config = {
           alt: 'Tpa logo',
           src: 'img/logotopa.webp',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'getting-started/how-to-use-this-manual',
-            position: 'left',
-            label: 'Tcs',
-          },
-          {
-            href: 'https://www.tpaspa.com/',
-            label: 'Tpa',
-            position: 'right',
-          },
-        ],
+        items: [ ],
       },
       footer: {
         style: 'dark',
