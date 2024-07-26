@@ -11,7 +11,7 @@ startEC2_job:
 
 build_job:
   stage: build
-    tags:
+  tags:
     - dip-group-runner 
   script:
     - npm install --force
