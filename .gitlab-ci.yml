@@ -1,0 +1,21 @@
+image: node:22.0.0
+
+stages:
+  - build
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - npm install --force
+    - npm run build
+  only:
+    - master
+
+
+deploy_job:
+  stage: deploy
+  script:
+    - npm install --force
+    - npm run build
+    - mv ./build ./public
