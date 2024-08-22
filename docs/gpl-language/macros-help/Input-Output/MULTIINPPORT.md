@@ -24,4 +24,4 @@ Legge fino a quattro input8 contemporaneamente e li scrive in una **variabile**.
 
 I'**input8_1** corrisponde al byte più basso, mentre l'**input8_4** a quello più alto.
 
-
+![multiinpport](./img/multiinpport.png)

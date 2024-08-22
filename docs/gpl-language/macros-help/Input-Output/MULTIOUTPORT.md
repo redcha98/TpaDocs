@@ -24,4 +24,5 @@ Scrive **valore** in quattro output8 contemporaneamente. La scrittura dei output
 
 Se **output8_2**, **output8_3**, **output8_4** non sono specificati, il relativo byte ha valore 0.
 
+![multioutport](./img/multioutport.png)
 
