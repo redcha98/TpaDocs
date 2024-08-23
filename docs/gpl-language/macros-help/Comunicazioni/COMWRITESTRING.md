@@ -17,4 +17,4 @@ sidebar_position: 7
 | **buffer**            | variabile string. Contiene i dati da scrivere                                                                              |         
 
 ## Descrizione
-L'istruzione scrive i caratteri presenti nella variabile **buffer** sulla linea seriale **numeroCOM**. Si differenzia dalla [COMWRITE](COMWRITE.md),, perché scrive sulla seriale, fino al terminatore della stringa. Il parametro terminatore è opzionale. Se non è specificato, l'istruzione trasmetterà, fino a che non incontrerà un carattere di zero. Lo zero non andrà trasmesso, mentre un eventuale carattere di controllo specificato sì.
+L'istruzione scrive i caratteri presenti nella variabile **buffer** sulla linea seriale **numeroCOM**. Si differenzia dalla [COMWRITE](COMWRITE.md), perché scrive sulla seriale, fino al terminatore della stringa. Il parametro terminatore è opzionale. Se non è specificato, l'istruzione trasmetterà, fino a che non incontrerà un carattere di zero. Lo zero non andrà trasmesso, mentre un eventuale carattere di controllo specificato sì.
