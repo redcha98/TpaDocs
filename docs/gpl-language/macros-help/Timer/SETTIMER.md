@@ -24,7 +24,7 @@ Sono ammessi solo valori maggiori di zero. La precisione massima dei timer è il
 Vedere anche [STARTTIMER](STARTTIMER.md) e [HOLDTIMER](HOLDTIMER.md).
 
 ### Esempio
-  ```phyton {4,6} showLineNumbers
+  ```c {4} showLineNumbers
   ; La Function imposta un timer 
   
   ;Imposto il timer TimeOut al valore 20 secondi
