@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Sintassi
 
   ```
-  COMCLEARRXBUFFER	numeroCOM
+  COMCLEARRXBUFFER numeroCOM
   ```
 
 ## Parametri

@@ -7,7 +7,7 @@ sidebar_position: 5
 ## Sintassi
 
   ```
- COMREADSTRING	numeroCOM, buffer, numcharletti [,terminatore [,timeout]]
+ COMREADSTRING numeroCOM, buffer, numcharletti [,terminatore [,timeout]]
   ```
 
 ## Parametri

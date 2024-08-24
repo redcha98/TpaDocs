@@ -7,9 +7,9 @@ sidebar_position: 10
 ## Sintassi
 
   ```
-IFACC	asse_enc, GOTO etichetta
-IFACC	asse_enc, CALL sottoprogramma
-IFACC	asse_enc, nomefunzione
+IFACC asse_enc, GOTO etichetta
+IFACC asse_enc, CALL sottoprogramma
+IFACC asse_enc, nomefunzione
   ```
 
 ## Parametri

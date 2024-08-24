@@ -7,7 +7,7 @@ sidebar_position: 8
 ## Sintassi
 
   ```
-GOTO	etichetta	
+GOTO etichetta	
   ```
 
 ## Parametri

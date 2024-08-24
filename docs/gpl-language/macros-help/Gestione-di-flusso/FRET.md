@@ -7,7 +7,7 @@ sidebar_position: 7
 ## Sintassi
 
   ```
-FRET	[risultati]		
+FRET [risultati]		
   ```
 
 ## Parametri

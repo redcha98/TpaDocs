@@ -7,7 +7,7 @@ sidebar_position: 2
 ## Sintassi
 
   ```
-DELONSTATE	nomevariabile
+DELONSTATE nomevariabile
   ```
 
 ## Parametri

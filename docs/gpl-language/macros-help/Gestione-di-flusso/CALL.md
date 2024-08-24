@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Sintassi
 
   ```
-CALL	sottoprogramma
+CALL sottoprogramma
   ```
 
 ## Parametri

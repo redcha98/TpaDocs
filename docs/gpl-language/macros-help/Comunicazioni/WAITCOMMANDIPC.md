@@ -7,7 +7,7 @@ sidebar_position: 14
 ## Sintassi
 
   ```
-  WAITCOMMANDIPC	nomeIPC [, nomevar1 [, … nomevar20]]
+  WAITCOMMANDIPC nomeIPC [, nomevar1 [, … nomevar20]]
   ```
 
 ## Parametri

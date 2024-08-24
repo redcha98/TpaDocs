@@ -7,7 +7,7 @@ sidebar_position: 3
 ## Sintassi
 
   ```
-DELONINPUT	nomeinput
+DELONINPUT nomeinput
   ```
 
 ## Parametri

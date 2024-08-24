@@ -7,9 +7,9 @@ sidebar_position: 30
 ## Sintassi
 
   ```
-IFTARGET	asse_enc, GOTO etichetta
-IFTARGET	asse_enc, CALL sottoprogramma
-IFTARGET	asse_enc, nomefunzione
+IFTARGET asse_enc, GOTO etichetta
+IFTARGET asse_enc, CALL sottoprogramma
+IFTARGET asse_enc, nomefunzione
   ```
 
 ## Parametri

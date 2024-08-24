@@ -7,7 +7,7 @@ sidebar_position: 11
 ## Sintassi
 
   ```
-  [risult1 [… risult20] = ] COMMANDIPC	nomeIPC [, nomevar1 [, nomevar20, ...]]
+  [risult1 [… risult20] = ] COMMANDIPC nomeIPC [, nomevar1 [, nomevar20, ...]]
   ```
 
 ## Parametri

@@ -7,7 +7,7 @@ sidebar_position: 6
 ## Sintassi
 
   ```
-  COMWRITE	numeroCOM, buffer, dascrivere
+  COMWRITE numeroCOM, buffer, dascrivere
   ```
 
 ## Parametri

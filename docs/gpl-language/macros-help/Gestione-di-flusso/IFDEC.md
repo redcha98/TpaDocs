@@ -7,9 +7,9 @@ sidebar_position: 15
 ## Sintassi
 
   ```
-IFDEC	asse_enc, GOTO etichetta
-IFDEC	asse_enc, CALL sottoprogramma
-IFDEC	asse_enc, nomefunzione
+IFDEC asse_enc, GOTO etichetta
+IFDEC asse_enc, CALL sottoprogramma
+IFDEC asse_enc, nomefunzione
   ```
 
 ## Parametri

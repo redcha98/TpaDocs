@@ -14,7 +14,7 @@ sidebar_position: 8
 |Parametro                | Descrizione                                                                           |                 
 |-------------------------|---------------------------------------------------------------------------------------|     
 | **maschera**            | maschera delle uscite interessate - costante o variabile char, byte o integer         |
-| **nomeoutput1**            | nome di dispositivo tipo output                                                           |               
+| **nomeoutput1**         | nome di dispositivo tipo output                                                       |               
 
 ## Descrizione
 Di tutte le uscite **nomeoutput** (1÷32), attiva quelle il cui bit nell'argomento **maschera** è posto a 1.
