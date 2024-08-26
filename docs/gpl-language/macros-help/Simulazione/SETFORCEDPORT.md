@@ -1,27 +1,27 @@
 ---
-sidebar_position: 23
+sidebar_position: 8
 ---
 
-# SETFORCEDANALOG 
+# SETFORCEDPORT 
 
 ## Sintassi
 
   ```
- SETFORCEDANALOG	ingressoanalogico, valore
+ SETFORCEDPORT	nomeInput8, valore
   ```
 
 ## Parametri
 |Parametro                 | Descrizione                                            |                
 |--------------------------|--------------------------------------------------------|
-| **ingressoanalogico**    | nome di dispositivo ingresso analogico                 | 
-| **valore**               | costante o variabile integer o double                  |               
+| **nomeInput8**           | nome di dispositivo input8                             | 
+| **valore**               | costante o variabile integer o char o byte             |               
 
 ## Descrizione
-Forza il **valore** nell'ingresso analogico specificato da **ingressoanalogico**. 
+Forza il **valore** nel dispositivo di ingressi espresso da **nomeinput8**. L’input8 viene visto come una maschera di bit. Se un bit vale 1, il corrispondente ingresso viene forzato ad "ON".
 Per poter utilizzare questa istruzione è necessario aver già abilitato la forzatura degli ingressi, con l'istruzione [ENABLEFORCEDINPUT](ENABLEFORCEDINPUT.md). 
 
 Vedere anche
 [DISABLEFORCEDINPUT](DISABLEFORCEDINPUT.md),
 [SETFORCEDINPUT](SETFORCEDINPUT.md), 
 [RESETFORCEDINPUT](RESETFORCEDINPUT.md), 
-[SETFORCEDPORT](SETFORCEDPORT.md).
+[SETFORCEDANALOG](SETFORCEDANALOG.md).
