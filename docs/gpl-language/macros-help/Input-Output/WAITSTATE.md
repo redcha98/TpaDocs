@@ -15,8 +15,8 @@ sidebar_position: 17
 ## Parametri
 |Parametro                | Descrizione                                                                           |                 
 |-------------------------|---------------------------------------------------------------------------------------|     
-| **nomebool**            | nome variabile booleana                                                            |
-| **stato**               | costante predefinita. I valori ammessi sono: <br/>- **ON** stato input attivo <br/>- **OFF** stato input disattivo |
+| **nomebool**            | nome variabile booleana                                       vvv                     |
+| **stato**               | costante predefinita. I valori ammessi sono: <br/>- **ON** stato attivo <br/>- **OFF** stato disattivo |
 | **timeout**             | costante o variabile. È il tempo limite di attesa                                     |
 | **etichetta**           | etichetta di salto (GOTO)                                                             | 
 | **nomesottoprogramma**  | etichetta di sottoprogramma (CALL)                                                    |
