@@ -16,4 +16,4 @@ sidebar_position: 13
 | **nomeIPC**                  | costante stringa. Nome della IPC, senza spazi, al massimo 50 byte (codifica UTF-8)                     |         
 
 ## Descrizione
-BLA BLA BLA
+Ripulisce da eventuali dati precedentemente ricevuti da un programma esterno tramite una IPC di nome **"nomeIPC"**.

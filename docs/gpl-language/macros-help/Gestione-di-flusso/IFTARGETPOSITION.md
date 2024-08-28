@@ -32,7 +32,7 @@ ENDIF
 |Parametro                    | Descrizione                                                                                           |                
 |-----------------------------|-------------------------------------------------------------------------------------------------------|
 | **asse_enc**                | nome del dispositivo tipo asse o encoder                                                              |         
-| **operatore_di_confronto**  | i simboli che possono essere utilizzati per eseguire il confronto sono: **\<** (minore) **=** (uguale) **>** (maggiore) **=\<** (minore uguale) **>=** (maggiore uguale) **\<>** (diverso) **!=** (diverso)                                                                   |        
+| **operatore_di_confronto**  | i simboli che possono essere utilizzati per eseguire il confronto sono: **\<** (minore) **=** (uguale) **>** (maggiore) **=\<** (minore uguale) **>=** (maggiore uguale) **\<>** (diverso) **!=** (diverso)      |        
 | **valore**                  | costante o variabile o nomecounter                                                                    |     
 | **etichetta**               | nome dell'etichetta a cui saltare                                                                     | 
 | **nomesottoprogramma**      | etichetta di sottoprogramma                                                                           |

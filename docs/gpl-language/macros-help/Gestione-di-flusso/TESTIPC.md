@@ -7,9 +7,9 @@ sidebar_position: 42
 ## Sintassi
 
   ```
-TESTIPC nomeIPC [, nomevar1 [, … nomevar20]], GOTO etichetta
-TESTIPC nomeIPC [, nomevar1 [, … nomevar20]], CALL sottoprogramma
-TESTIPC nomeIPC [, nomevar1 [, … nomevar20]], nomefunzione
+TESTIPC nomeIPC nomevar1 [, … nomevar20], GOTO etichetta
+TESTIPC nomeIPC nomevar1 [, … nomevar20], CALL sottoprogramma
+TESTIPC nomeIPC nomevar1 [, … nomevar20], nomefunzione
   ```
 
 ## Parametri
@@ -22,9 +22,9 @@ TESTIPC nomeIPC [, nomevar1 [, … nomevar20]], nomefunzione
 | **nomefunzione**            | nome della funzione                                                                                   |    
 
 ## Descrizione
-Test e ricezione dati tramite una IPC di nome **"nomeIPC"**.
+Test e ricezione dati da un programma esterno tramite una IPC di nome **"nomeIPC"**.
 
-La prima volta che viene eseguita un'istruzione di TESTIPC viene allocata la memoria per i dati da ricevere, la cui dimensione viene calcolata in base alla dimensione complessiva delle variabili **nomevar (1÷20)**. La dimensione massima della memoria è di 4.000.000 Byte.
+La prima volta che viene eseguita un'istruzione di TESTIPC viene allocata la memoria per i dati da ricevere da un programma esterno, la cui dimensione viene calcolata in base alla dimensione complessiva delle variabili **nomevar (1÷20)**. La dimensione massima della memoria è di 4.000.000 Byte.
 
 Se all'esecuzione della macro TESTIPC vi sono dei dati ricevuti, vengono copiati nelle variabili **nomevar (1÷20)** e di seguito viene eseguita l'istruzione di salto ad **etichetta**, o chiamato il **nomesottoprogramma** o **nomefunzione** descritti come ultimo parametro dell'istruzione TESTIPC.
 
