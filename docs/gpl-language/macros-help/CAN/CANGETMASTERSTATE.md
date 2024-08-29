@@ -18,4 +18,10 @@ sidebar_position: 2
 ## Descrizione
 Restituisce lo stato del protocollo NMT per il **nodo** della scheda indicato. 
 
-Per maggiori informazioni sul significato di questi parametri riferirsi direttamente alla documentazione del singolo dispositivo.
+I possibili valori per **stato** sono i seguenti:
+
+| Valore  | Stato del master                       |                
+|---------|----------------------------------------|
+|  4	    |  Master in stato di Stop               |
+|  5    	|  Master in stato Operational           |
+|  127	  |  Master in stato Pre-Operational       |
