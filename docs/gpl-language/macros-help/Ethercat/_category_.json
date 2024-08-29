@@ -1,0 +1,8 @@
+{
+  "label": "EtherCat",
+  "position": 14,
+  "link": {
+    "type": "generated-index",
+    "description": "EtherCat"
+  }
+}
