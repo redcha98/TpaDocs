@@ -7,7 +7,7 @@ sidebar_position: 3
 ## Sintassi
 
   ```
- 	MULTIINPPORT input8_1[,...,input8_4],variabile
+MULTIINPPORT input8_1[,...,input8_4],variabile
   ```
 
 ## Parametri

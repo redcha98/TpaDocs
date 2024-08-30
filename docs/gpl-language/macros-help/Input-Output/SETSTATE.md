@@ -7,7 +7,7 @@ sidebar_position: 15
 ## Sintassi
 
   ```
-  SETSTATE	nomeboolean
+  SETSTATE nomeboolean
   ```
 
 ## Parametri

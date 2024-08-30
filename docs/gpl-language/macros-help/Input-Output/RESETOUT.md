@@ -7,7 +7,7 @@ sidebar_position: 14
 ## Sintassi
 
   ```
-  RESETOUT	nomeoutput
+  RESETOUT nomeoutput
   ```
 
 ## Parametri

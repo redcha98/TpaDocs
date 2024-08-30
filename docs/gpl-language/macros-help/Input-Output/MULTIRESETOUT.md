@@ -7,7 +7,7 @@ sidebar_position: 6
 ## Sintassi
 
   ```
-  MULTIRESETOUT	maschera, nomeoutput1[, ..., nomeoutput32]
+MULTIRESETOUT	maschera, nomeoutput1[, ..., nomeoutput32]
   ```
 
 ## Parametri

@@ -7,7 +7,7 @@ sidebar_position: 4
 ## Sintassi
 
   ```
- 	MULTIOUTPORT 	valore, output8_1[,...,output8_4]
+MULTIOUTPORT  valore, output8_1[,...,output8_4]
   ```
 
 ## Parametri

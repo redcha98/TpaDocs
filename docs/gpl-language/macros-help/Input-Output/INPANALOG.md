@@ -7,7 +7,7 @@ sidebar_position: 1
 ## Sintassi
 
   ```
-  INPANALOG	nomeinpanalogico, variabile
+  INPANALOG nomeinpanalogico, variabile
   ```
 
 ## Parametri

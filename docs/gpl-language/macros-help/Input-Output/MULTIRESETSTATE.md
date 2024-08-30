@@ -7,7 +7,7 @@ sidebar_position: 5
 ## Sintassi
 
   ```
-  MULTIRESETSTATE	maschera, boolean1[, ..., boolean32]
+MULTIRESETSTATE	maschera, boolean1[, ..., boolean32]
   ```
 
 ## Parametri

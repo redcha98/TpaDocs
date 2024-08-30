@@ -7,7 +7,7 @@ sidebar_position: 11
 ## Sintassi
 
   ```
-  OUTANALOG	nomeoutanalogico, valore
+  OUTANALOG nomeoutanalogico, valore
   ```
 
 ## Parametri

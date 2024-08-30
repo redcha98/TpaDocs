@@ -7,9 +7,9 @@ sidebar_position: 9
 ## Sintassi
 
   ```
-  MULTIWAITSTATE	maschera, bool1[, ..., bool32], stato [, timeout [, GOTO etichetta]]
-  MULTIWAITSTATE	maschera, bool1[, ..., bool32], stato [, timeout [, CALL sottoprogramma]]
-  MULTIWAITSTATE	maschera, bool1[, ..., bool32], stato [, timeout [, nomefunzione]]
+  MULTIWAITSTATE maschera, bool1[, ..., bool32], stato [, timeout [, GOTO etichetta]]
+  MULTIWAITSTATE maschera, bool1[, ..., bool32], stato [, timeout [, CALL sottoprogramma]]
+  MULTIWAITSTATE maschera, bool1[, ..., bool32], stato [, timeout [, nomefunzione]]
   ```
 
 ## Parametri

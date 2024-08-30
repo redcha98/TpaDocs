@@ -7,7 +7,7 @@ sidebar_position: 16
 ## Sintassi
 
   ```
-  SETOUT	nomeoutput
+  SETOUT nomeoutput
   ```
 
 ## Parametri
