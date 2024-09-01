@@ -1,19 +1,19 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
 ---
 
-# LOCAL
+# PARAM
 
 ## Sintassi
 
   ```
-LOCAL nomevar AS tipo_singolo  [ = init_single_val]
-LOCAL vettore[n_elementi] AS tipo [ = init_val1, …]
-LOCAL matrice[n_righe] AS tipo, tipo, tipo, ... [ = init_val1, …]
-LOCAL matrice[n_righe] AS tipo:nomecol1, tipo:nomecol2, tipo:nomecol3, ... [ = init_val1, …]
-LOCAL matrice[n_righe][n_colonne] AS tipo [ = init_val1, …]
-LOCAL mat3D[n_piani][n_righe] AS tipo:nomecol1, tipo:nomecol2, ... [ = init_val1, …]
-LOCAL mat3D[n_piani][n_righe][n_colonne] AS tipo [ = init_val1, …]
+PARAM [BYREF] nomevar [RANGE:[min]..[max]] AS tipo_singolo [ = default_val]
+PARAM vettore[n_elementi] AS tipo
+PARAM matrice[n_righe] AS tipo, tipo, tipo, ... 
+PARAM matrice[n_righe] AS tipo:alias, tipo:alias, tipo:alias, ...
+PARAM matrice[n_righe][n_colonne] AS tipo
+PARAM mat3D[n_piani][n_righe] AS tipo:alias, tipo:alias, ...
+PARAM mat3D[n_piani][n_righe][n_colonne] AS tipo
   ```
 
 ## Parametri
@@ -33,12 +33,12 @@ LOCAL mat3D[n_piani][n_righe][n_colonne] AS tipo [ = init_val1, …]
 | **init_val1, …**        |	valori di inizializzazione del vettore o della matrice.                                  |                
 
 ## Descrizione
-Dichiarazione di una variabile locale. Prima di questa istruzione, all’interno della definizione di una funzione, può comparire solo l'istruzione PARAM che definisce i parametri della funzione.
+I parametri si utilizzano come le variabili locali ma vengono inizializzati da chi chiama la funzione. 
 
-In caso di **matrice**, se tutte le colonne sono dello stesso tipo, la matrice è detta omogenea. In questo caso la definizione della matrice si semplifica, indicando solo il **tipo** comune e il numero di **colonne** presenti.
+La sintassi per la dichiarazione dei parametri è molto simile a quella usata per le variabili locali (vedi [LOCAL](LOCAL.md)). 
 
-Le matrici possono essere tridimensionali, ovvero avere anche un **indice di piano**, che deve precedere l’**indice di riga**.
+I parametri vengono passati per valore o per riferimento in funzione del loro tipo, in alcuni casi è possibile passare per riferimento una variabile che normalmente sarebbe passata per copia, aggiungendo l'istruzione **BYREF** prima del nome del parametro. Vedere “Funzioni parametriche”.
 
-È possibile inizializzare ogni elemento a un valore specifico aggiungendo in coda alla definizione il carattere ‘=’ e l’elenco dei valori. Se non sono presenti valori di inizializzazione, la variabile è posta a 0 (o “” in caso di string). Nel caso di variabile semplice è possibile inserire una espressione che verrà valutata a runtime (quindi può contenere riferimenti ad altre variabili e chiamate a funzione) mentre nel caso di vettori e matrici ogni valore di inizializzazione può essere un’espressione ma deve essere racchiusa tra una coppia di parentesi tonde e l’espressione deve essere calcolabile da compilatore (quindi, contenere solo operazioni tra valori e costanti).
+Vanno dichiarati prima di ogni altra istruzione.
 
-Per informazioni basilari sulle variabili locali vedere [Le variabili locali](Variabili-Locali.md).
+Per ulteriori informazioni vedere [Parametri con RANGE](Parametri-con-RANGE.md) e [Parametri con valore di default](Parametri-con-valore-di-default.md).
