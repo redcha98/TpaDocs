@@ -7,7 +7,7 @@ sidebar_position: 3
 ## Sintassi
 
   ```
-CANREADSDO nodo,indice,sottoindice,dimdato,dato [,dimdato]
+CANREADSDO nodo, indice, sottoindice, dimdato, dato [,dimdato]
   ```
 
 ## Parametri

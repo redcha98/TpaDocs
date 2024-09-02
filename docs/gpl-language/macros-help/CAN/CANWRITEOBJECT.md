@@ -7,7 +7,7 @@ sidebar_position: 7
 ## Sintassi
 
   ```
-CANWRITEOBJECT nodo,indice,sottoindice,dimdato,dato [,errore]
+CANWRITEOBJECT nodo, indice, sottoindice, dimdato, dato [,errore]
   ```
 
 ## Parametri e Descrizione

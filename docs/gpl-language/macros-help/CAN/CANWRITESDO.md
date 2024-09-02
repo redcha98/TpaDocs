@@ -7,7 +7,7 @@ sidebar_position: 7
 ## Sintassi
 
   ```
-CANWRITESDO nodo,indice,sottoindice,dimdato,dato [,errore]
+CANWRITESDO nodo, indice, sottoindice, dimdato, dato [,errore]
   ```
 
 ## Parametri

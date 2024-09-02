@@ -7,7 +7,7 @@ sidebar_position: 3
 ## Sintassi
 
   ```
-CANREADOBJECT nodo,indice,sottoindice,dimdato,dato [,dimdato]
+CANREADOBJECT nodo, indice, sottoindice, dimdato, dato [,dimdato]
   ```
 
 ## Parametri e Descrizione
