@@ -18,7 +18,7 @@ FIND vettore, limite_min, limite_max, valore, variabile
 | **vettore**             | nome del vettore. Vettore in cui eseguire la ricerca                                                  |               
 | **colonna**             | costante o variabile integer. Numero di colonna della matrice in cui eseguire la ricerca              |               
 | **limite_min**          | costante o variabile integer. Indice minimo del vettore o della matrice da cui iniziare la ricerca    |               
-| **limite_max**          | costante o variabile integer. Indice massimo del vettore o della matrice do-ve terminare la ricerca   |               
+| **limite_max**          | costante o variabile integer. Indice massimo del vettore o della matrice dove terminare la ricerca   |               
 | **valore**              | costante o variabile numerica, boolean o timer. Valore da ricercare                                   |               
 | **variabile**           | variabile integer. Risultato della ricerca                                                            |               
 

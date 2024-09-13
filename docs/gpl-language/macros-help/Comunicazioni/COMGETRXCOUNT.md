@@ -17,4 +17,4 @@ sidebar_position: 3
 | **numchar**      | numero di caratteri presenti nel buffer                                                                                    |
 
 ## Descrizione
-L'istruzione restituisce il numero di caratteri presenti nel buffer di ricezione. Permette di sapere se so-no stati ricevuti caratteri dalla porta seriale.
+L'istruzione restituisce il numero di caratteri presenti nel buffer di ricezione. Permette di sapere se sono stati ricevuti caratteri dalla porta seriale.

@@ -21,7 +21,7 @@ DELERRORSTATE messaggio [, categoria [, log [, arg1, ..., arg5]]]
 ## Descrizione
 Fa eseguire al PC supervisore la cancellazione di un errore di ciclo inviato precedentemente con l'istruzione [ERRORSTATE](ERRORSTATE.md).
 
-Affinché la cancellazione abbia effetto, tutti i valori impostati nei parametri devono coincidere con quelli utilizzati per generare l'errore. L'impostazione del parametro **log** a **STORE** comporta la registrazione dell'errore di ciclo nel file di report errori del mese corrente.  
+Affinché la cancellazione abbia effetto, tutti i valori impostati nei parametri devono coincidere con quelli utilizzati per generare l'errore; i parametri definiti in fase di cancellazione possono essere un sott'insieme, seppur necessariamente i primi, di quelli utilizzati per generare l'errore. L'impostazione del parametro **log** a **STORE** comporta la registrazione dell'errore di ciclo nel file di report errori del mese corrente.  
 
 Un errore registrato sui file report non viene infatti eliminato dal file, ma solo dalla finestra degli errori. Sul file viene aggiunta una nuova registrazione della cancellazione dell'errore. 
 
