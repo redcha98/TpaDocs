@@ -20,6 +20,7 @@ ENDTASK [asse.OwnerTask]
 
 ## Descrizione
 Termina l'esecuzione di un task e di tutti i task che questa ha attivato (task figli).
-Questa istruzione sospende inoltre il movimento degli assi pendenti e chiude le eventuali connessioni a porte seriali. 
+
+Questa istruzione ferma anche tutti i movimenti punto-punto programmati dal task nometask in modo analogo a quanto accade con l’istruzione [ENDMOV](../Assi/ENDMOV.md). Se il task nometask controlla un canale di interpolazione (cioè ha eseguito almeno un’istruzione [OPENINTERP](../Assi/OPENINTERP.md)), il movimento interpolato viene fermato ([ENDMOV](../Assi/ENDMOV.md)) e il canale di interpolazione viene chiuso ([CLOSEINTERP](../Assi/CLOSEINTERP.md)). 
 
 Se la variabile **nometask** è omessa, fa terminare l'esecuzione del task corrente.
