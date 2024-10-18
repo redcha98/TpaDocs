@@ -7,18 +7,18 @@ sidebar_position: 36
 ## Sintassi
 
   ```
-SETCOORDSYSTEM	quota1_ax1, quota2_ax1, quota3_ax1,
-	            quota1_ax2, quota2_ax2, quota3_ax2, 
-	            quota1_ax3, quota2_ax3, quota3_ax3, 
-	            asse1, asse2, asse3,
-	            [orig_ax1, orig_ax2, orig_ax3]
+SETCOORDSYSTEM quota1_ax1, quota2_ax1, quota3_ax1,
+                 quota1_ax2, quota2_ax2, quota3_ax2, 
+                 quota1_ax3, quota2_ax3, quota3_ax3, 
+                 asse1, asse2, asse3,
+                 [orig_ax1, orig_ax2, orig_ax3]
 
-SETCOORDSYSTEM	quota1_ax1, quota2_ax1,
-	            quota1_ax2, quota2_ax2, 
-	            asse1, asse2, 
-	            [orig_ax1, orig_ax2]
+SETCOORDSYSTEM quota1_ax1, quota2_ax1,
+                 quota1_ax2, quota2_ax2, 
+                 asse1, asse2, 
+                 [orig_ax1, orig_ax2]
 
-SETCOORDSYSTEM	asse1, orig_ax1
+SETCOORDSYSTEM asse1, orig_ax1
 
   ```
 
