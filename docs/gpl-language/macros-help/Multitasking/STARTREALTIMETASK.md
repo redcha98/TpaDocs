@@ -23,4 +23,6 @@ Attiva l'esecuzione di un task real-time. Tale task viene eseguito con la stessa
 Vedere anche [ENDREALTIMETASK](ENDREALTIMETASK.md).
 
 ### Nota
-Le variabili locali dichiarate nel task real-time vengono inizializzate <u>solo</u> in avvio del task e in seguito mantengono il valore dell'ultima esecuzione.
+Le variabili locali dichiarate nel task real-time vengono allocate <u>solo</u> in avvio del task e in seguito mantengono il valore dell'ultima esecuzione.
+
+Diversamente, se è presente un'inizializzazione di una variabile locale, il valore presente verrà settato ad ogni ciclo.

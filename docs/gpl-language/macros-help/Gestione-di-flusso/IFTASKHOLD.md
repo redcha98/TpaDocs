@@ -15,6 +15,21 @@ IFTASKHOLD asse.OwnerTask, GOTO etichetta
 IFTASKHOLD asse.OwnerTask, CALL sottoprogramma
 IFTASKHOLD asse.OwnerTask, nomefunzione
 
+IFTASKHOLD nometask THEN
+    istruzione
+    istruzione
+    ... 
+ENDIF
+
+IFTASKHOLD nometask THEN
+    istruzione
+    istruzione
+    ...
+ELSE
+    istruzione
+    istruzione
+    ...
+ENDIF
   ```
 
 ## Parametri

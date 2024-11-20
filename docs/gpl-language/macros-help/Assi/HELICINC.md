@@ -14,7 +14,7 @@ HELICINC [etichetta], asse1, quota1, asse2, quota2, asse3, quota3, senso, ±ragg
 |Parametro                        | Descrizione                                                                                                                                      |                
 |---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **etichetta**                   | costante o variabile integer. Etichetta che identifica un blocco di spostamento                                                                  |
-| **asse1...asse3[...asse6]]**    | nomi di dispositivi tipo asse                                                                                                                    |
+| **asse1...asse3[...asse6]**     | nomi di dispositivi tipo asse                                                                                                                    |
 | **quota1...quota3[...quota6]**  | costante o variabile double. Rappresenta la quota di spostamento incrementale                                                                    |     
 | **senso**                       | costante o variabile integer. Specifica il tipo di rotazione. <br/> Sono ammessi i valori:  <br/> -**CW** oraria  <br/> -**CCW** antioraria      | 
 | **raggio**                 	    | costante o variabile double. Rappresenta il valore del raggio del cerchio                                                                        |     
