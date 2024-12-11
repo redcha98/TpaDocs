@@ -7,19 +7,18 @@ sidebar_position: 17
 ## Sintassi
 
   ```
-SETTANGENCYSEGMENT asse, tipo_raccordo, lun_segmento
+SETTANGENCYSEGMENT tipo_raccordo, lun_segmento
   ```
 
 ## Parametri
 |Parametro               | Descrizione                                                         |                
-|------------------------|---------------------------------------------------------------------|
-| **asse**               | nomi di dispositivi tipo asse o encoder                             |                
+|------------------------|---------------------------------------------------------------------|            
 | **tipo_raccordo**      | tipo di raccordo: _NOFILLET, _ARC                                   |                
 | **lun_segmento**       | valore double, distanza dall’incrocio dei due tratti                |
 
 
 ## Descrizione
-Configura il raccordo geometrico applicato dal canale di interpolazione di **asse** tra due movimenti consecutivi. 
+Configura il raccordo geometrico applicato alle interpolazioni tra due movimenti consecutivi. 
 
 Se **tipo_raccordo** è _NOFILLET non viene fatto nessun raccordo e il parametro **lun_segmento** viene ignorato. 
 
