@@ -21,4 +21,4 @@ FROMPULSESTOPOSITION asse_enc, impulsi, variabile
 ## Descrizione
 Trasforma il conteggio **impulsi** nella posizione equivalente del dispositivo **asse_enc** indicato e lo scrive in **variabile**. 
 
-La posizione calcolata non contiene né correttori di linearità (si vedano le istruzioni [ENABLECORRECTION](ENABLECORRECTION.md) e [ENABLEJOINTCORRECTION](ENABLEJOINTCORRECTION.md)) né correzioni per recupero giochi (si veda [SETBACKLASH](SETBACKLASH.md)).
+La posizione calcolata non contiene né correttori di linearità (si vedano le istruzioni [ENABLECORRECTION](./ENABLECORRECTION.md) e [ENABLEJOINTCORRECTION](./ENABLEJOINTCORRECTION.md)) né correzioni per recupero giochi (si veda [SETBACKLASH](/docs/ToDo.md)).

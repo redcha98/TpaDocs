@@ -19,7 +19,7 @@ sidebar_position: 25
 ## Descrizione
 Esegue una operazione di radice quadrata su **operando** e pone il valore in **risultato**. Per il parametro **operando** sono ammessi solo valori positivi. 
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
 
 ### Esempio
 

@@ -19,7 +19,7 @@ sidebar_position: 19
 ## Descrizione
 Esegue una operazione di arrotondamento all'unità su **operando** e pone il valore in **risultato**. 
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
 
 ### Esempio
 

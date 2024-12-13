@@ -22,7 +22,7 @@ Esegue una operazione di modulo tra **operando1** e **operando2** e pone il risu
 
 Il modulo è il resto risultante dalla divisione tra il primo e il secondo operando. L’istruzione può generare errore di sistema quando **operando2** è uguale a 0. 
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
 
 ### Esempio
 

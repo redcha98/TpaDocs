@@ -19,4 +19,4 @@ sidebar_position: 6
 ## Descrizione
 Se **operando2** è omesso, esegue una operazione di arcotangente su **operando1** e pone il valore in **risultato**, in gradi. Se **operando2** è presente, l'angolo considerato sarà quello il cui seno è dato da **operando1** e il cui coseno è dato da **operando2**. 
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).

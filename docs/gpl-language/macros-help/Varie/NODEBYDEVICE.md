@@ -23,7 +23,7 @@ Restituisce il numero di BUS (nella variabile **fieldbus**) e il numero di nodo 
 
 Se il dispositivo è connesso ad uno slot all'interno del nodo il numero di slot viene posto in  **offset**.
 
-Questa istruzione serve per poter utilizzare le istruzioni che non hanno dei riferimenti diretti a dispositivi, come, ad esempio, le istruzioni [ECATREADSDO](..\Ethercat\ECATREADSDO.md) e [ECATWRITESDO](..\Ethercat\ECATWRITESDO.md). 
+Questa istruzione serve per poter utilizzare le istruzioni che non hanno dei riferimenti diretti a dispositivi, come, ad esempio, le istruzioni [ECATREADSDO](../Ethercat/ECATREADSDO.md) e [ECATWRITESDO](../Ethercat/ECATREADSDO.md). 
 
 L’istruzione può essere utilizzata per dispositivi configurati su bus CAN o EtherCAT.
 

@@ -41,4 +41,4 @@ Le matrici possono essere tridimensionali, ovvero avere anche un **indice di pia
 
 È possibile inizializzare ogni elemento a un valore specifico aggiungendo in coda alla definizione il carattere ‘=’ e l’elenco dei valori. Se non sono presenti valori di inizializzazione, la variabile è posta a 0 (o “” in caso di string). Nel caso di variabile semplice è possibile inserire una espressione che verrà valutata a runtime (quindi può contenere riferimenti ad altre variabili e chiamate a funzione) mentre nel caso di vettori e matrici ogni valore di inizializzazione può essere un’espressione ma deve essere racchiusa tra una coppia di parentesi tonde e l’espressione deve essere calcolabile da compilatore (quindi, contenere solo operazioni tra valori e costanti).
 
-Per informazioni basilari sulle variabili locali vedere [Le variabili locali](Variabili-Locali.md).
+Per informazioni basilari sulle variabili locali vedere [Le variabili locali](/docs/ToDo.md).

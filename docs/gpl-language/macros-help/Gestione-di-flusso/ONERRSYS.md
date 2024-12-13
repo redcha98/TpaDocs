@@ -30,4 +30,4 @@ In caso di Errori di Sistema multipli la funzione viene lanciata in task una vol
 Al termine di tutte i task di ONERRSYS, se non già terminato, verrà terminato il task che aveva generato l’errore di sistema. 
 
 ### Esempio
-[Ciclo di Main con gestione Errori](MainErrSys.Md)
+[Ciclo di Main con gestione Errori](/docs/ToDo.md)

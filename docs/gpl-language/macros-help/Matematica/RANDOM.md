@@ -22,7 +22,7 @@ Restituisce in **risultato** un numero pseudocasuale compreso tra **min** e **ma
 
 E' possibile cambiare il seme dell'algoritmo di numeri casuali tramite l'istruzione [SEED](SEED.md)
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
 
 ### Esempio
 

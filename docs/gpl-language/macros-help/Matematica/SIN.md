@@ -21,7 +21,7 @@ Esegue una operazione di seno su **operando** e pone il valore in **risultato**.
 
 L'argomento operando è espresso in gradi con eventuale parte frazionaria centesimale (es.: 30° 15" = 30,25.).
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
 
 ### Esempio
 

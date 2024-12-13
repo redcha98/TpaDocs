@@ -23,7 +23,7 @@ Se viene indicato solo il primo parametro (**asse_enc1**) verranno disattivate s
  
 Se uno tra i dispositivi **asse_enc2, ..., asse_enc7** coincide con **asse_enc1** verrà disattivata l'autocorrezione per il dispositivo **asse_enc1**.
 
-Per una descrizione più dettagliata vedere [ENABLECORRECTION](DISABLECOENABLECORRECTIONRRECTION.md).
+Per una descrizione più dettagliata vedere [ENABLECORRECTION](./ENABLECORRECTION.md).
 
 
 ### Esempio

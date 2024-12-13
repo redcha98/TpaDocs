@@ -19,7 +19,7 @@ sidebar_position: 1
 ## Descrizione
 Ricava il valore assoluto di **operando** e lo pone in **risultato**. 
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
 
 ### Esempio
 

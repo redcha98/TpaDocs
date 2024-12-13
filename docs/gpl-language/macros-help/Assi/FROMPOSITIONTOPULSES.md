@@ -21,4 +21,4 @@ FROMPOSITIONTOPULSES asse_enc, quota, variable
 ## Descrizione
 Trasforma la **quota** indica nell’equivalente conteggio impulsi del dispositivo **asse_enc** indicato e lo scrive in **variabile**. 
 
-La quota si considera priva di correttori di linearità (si vedano le istruzioni [ENABLECORRECTION](ENABLECORRECTION.md) e [ENABLEJOINTCORRECTION](ENABLEJOINTCORRECTION.md)) e correzioni di giochi meccanici (si veda [SETBACKLASH](SETBACKLASH.md)).
+La quota si considera priva di correttori di linearità (si vedano le istruzioni [ENABLECORRECTION](./ENABLECORRECTION.md) e [ENABLEJOINTCORRECTION](./ENABLEJOINTCORRECTION.md)) e correzioni di giochi meccanici (si veda [SETBACKLASH](/docs/ToDo.md)).

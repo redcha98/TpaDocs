@@ -20,7 +20,7 @@ AND	operando1, operando2, risultato
 ## Descrizione
 Esegue una operazione di AND binario (tra due bit, risulta 1 solo se entrambi valgono 1) tra **operando1** e **operando2** e pone il risultato in **risultato**. 
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
 
 ### Esempio
 

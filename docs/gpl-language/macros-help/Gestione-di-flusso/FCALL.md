@@ -26,4 +26,4 @@ Alla funzione possono essere passati eventuali **parametri**. Questi devono corr
 Una volta conclusa l’esecuzione della funzione **nomefunzione**, ovvero appena si incontra l’istruzione FRET, l'esecuzione riprende dall’istruzione successiva a FCALL nella funzione chiamante.
 Se nella definizione della funzione sono indicati uno o più valori di ritorno, questi verranno restituiti all’esecuzione di FRET e inseriti nella o nelle variabili **risultato1… risultatoN**. 
 
-Notare la differenza con l'istruzione  [STARTTASK](../Multitasking/starttask.md) che manda in esecuzione un'altra funzione in parallelo a quella chiamante (utilizzata per avere più task in esecuzione contemporanea). 
+Notare la differenza con l'istruzione  [STARTTASK](../Multitasking/STARTTASK.md) che manda in esecuzione un'altra funzione in parallelo a quella chiamante (utilizzata per avere più task in esecuzione contemporanea). 

@@ -40,7 +40,7 @@ La compilazione condizionale consente di controllare quali parti di un file di f
 
 La condizione di compilazione può essere espressa in diversi modi:
 ·	Dopo l'istruzione IFDEF viene specificato il nome di una costante. In questo caso la condizione è verificata se esiste una costante di gruppo con il nome specificato.
-·	Dopo l'istruzione IFDEF viene specificata un’espressione, tipicamente una relazione tra due operatori e un operando. In questo caso la condizione è verificata se l’espressione è verificata, cioè se il risultato è diverso da 0 (ad es. MAX_TOOLS = 100). Gli operatori ammessi sono gli stessi utilizzati nell'istruzione [EXPR](..\Matematica\EXPR.md). 
+·	Dopo l'istruzione IFDEF viene specificata un’espressione, tipicamente una relazione tra due operatori e un operando. In questo caso la condizione è verificata se l’espressione è verificata, cioè se il risultato è diverso da 0 (ad es. MAX_TOOLS = 100). Gli operatori ammessi sono gli stessi utilizzati nell'istruzione [EXPR](../Matematica/EXPR.md).
 
 Si possono usare tutti gli operatori ma l’espressione deve essere risolta dal compilatore, quindi non è possibile usare nomi di variabili o dispositivi per leggerne il valore, né chiamare funzioni. Inoltre, gli operatori LINKED o UNLINKED verificano che un dispositivo sia collegato in virtuale-fisico durante la fase di compilazione (e non in esecuzione, come per EXPR).
 

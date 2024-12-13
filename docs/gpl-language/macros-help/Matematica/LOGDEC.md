@@ -19,7 +19,7 @@ sidebar_position: 12
 ## Descrizione
 Calcola il logaritmo in base 10 di **operando** e pone il valore in **risultato**. 
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
 
 ### Esempio
 

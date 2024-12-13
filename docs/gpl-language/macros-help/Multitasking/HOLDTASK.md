@@ -18,5 +18,5 @@ HOLDTASK [asse.OwnerTask]
 | **asse**      | dispositivo asse                                              |           
 
 ## Descrizione
-Sospende l'esecuzione del task definito in **nometask**. Questa istruzione non sospende il movimento degli assi, che vanno fermati con istruzioni di [STOPMOV](../Assi/STOPMOV.md).
+Sospende l'esecuzione del task definito in **nometask**. Questa istruzione non sospende il movimento degli assi, che vanno fermati con istruzioni di [STOPMOV](..\Assi\STOPMOV.md).
 Se **nometask** è omesso, sospende l'esecuzione del task corrente.

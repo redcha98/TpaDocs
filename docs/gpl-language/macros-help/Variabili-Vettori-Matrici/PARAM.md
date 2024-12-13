@@ -35,10 +35,10 @@ PARAM mat3D[n_piani][n_righe][n_colonne] AS tipo
 ## Descrizione
 I parametri si utilizzano come le variabili locali ma vengono inizializzati da chi chiama la funzione. 
 
-La sintassi per la dichiarazione dei parametri è molto simile a quella usata per le variabili locali (vedi [LOCAL](LOCAL.md)). 
+La sintassi per la dichiarazione dei parametri è molto simile a quella usata per le variabili locali (vedi [LOCAL](./LOCAL.md)). 
 
 I parametri vengono passati per valore o per riferimento in funzione del loro tipo, in alcuni casi è possibile passare per riferimento una variabile che normalmente sarebbe passata per copia, aggiungendo l'istruzione **BYREF** prima del nome del parametro. Vedere “Funzioni parametriche”.
 
 Vanno dichiarati prima di ogni altra istruzione.
 
-Per ulteriori informazioni vedere [Parametri con RANGE](Parametri-con-RANGE.md) e [Parametri con valore di default](Parametri-con-valore-di-default.md).
+Per ulteriori informazioni vedere [Parametri con RANGE](/docs/ToDo.md) e [Parametri con valore di default](/docs/ToDo.md).

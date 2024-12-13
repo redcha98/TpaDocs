@@ -19,4 +19,4 @@ sidebar_position: 5
 ## Descrizione
 Esegue una operazione di arcoseno su **operando** e pone il valore in **risultato**, in gradi. Il valore del risultato è dato nell'intervallo -90°÷+90°. 
 
-Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](Conversione-dati.md).
+Per la conversione dei dati, in base al tipo di dato dichiarato, riferirsi al capitolo [Conversione dati](/docs/ToDo.md).
