@@ -82,12 +82,7 @@ const config = {
         links: [
           {
             title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+            items: [ ],
           },
           {
             title: 'More',
